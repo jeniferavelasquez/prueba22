@@ -1,0 +1,68 @@
+body{
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+#hero{
+    background-image:url("../img/bg-services-title.jpg");
+	background-position:top center;
+	background-size: cover;
+    padding: 100px 100px;
+	text-align: center;
+	color: white;
+	font-size: 90px;
+	font-weight: 200px;
+	margin-bottom: 120px;
+}
+
+#seewhat{
+	background-color:#f7f7f7;
+	text-align: center;
+	padding: 120px 50px;
+}
+#features{
+	text-align: center;
+}
+.cuadrado{
+width:80px;
+height: 80px;
+	line-height: 80px;
+border-radius: 100px;
+background-color:#FFFFFF;
+display:block;
+margin:auto;
+}
+
+.cuadrado i{
+width:100px;
+height: 100px;
+	line-height: 100px;
+color:#686868;
+}
+
+#features h4{
+	margin:30px;
+}
+
+#features p{
+	color:#686868;
+	margin-bottom: 60px;
+}
+#see h4{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
